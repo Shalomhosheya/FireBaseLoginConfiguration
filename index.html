@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Login</title>
+   <link rel="stylesheet" href="Assets/Styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
 </head>
 <body>
-$END$
+
+<div id="main">
+   <div id="container">
+       <h2 align="center" >Login</h2>
+       <h5>Email <input type="text" placeholder="Email"id="email"></h5>
+       <h5>Password <input type="text" placeholder="Password"id="passwordSelect"></h5>
+       <button id="btnCreate">Create an Account</button>
+        <button id="btnSignIn">Sign In</button>
+   </div>
+</div>
+<div id="reg">
+   <div id="container2">
+       <h2 align="center" >Register</h2>
+       <h5>Email <input type="text" placeholder="Username" id="email2"></h5>
+       <h5>Password <input type="text" placeholder="Password"id="passwordSelect2"></h5>
+       <button id="btnSignIn2">Create</button>
+       <button id="btnBack">BACK TO Login👈</button>
+   </div>
+</div>
+<script src="Js/jquery-3.7.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+<script type="module" src="Js/functions.js"></script>
+
 </body>
 </html>
