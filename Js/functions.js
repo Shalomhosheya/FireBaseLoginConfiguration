@@ -33,6 +33,7 @@ $('#btnSignIn2').on('click', () => {
             const user = userCredentials.user;
             alert("Success");
             $('#main').css('display', 'flex');
+            $('#reg').css('display', 'none');
 
         })
         .catch((error) => {
