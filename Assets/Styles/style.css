@@ -1,11 +1,13 @@
+body{
+    background-color: mediumspringgreen;
+}
 #main{
-    background-color: gray;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    /*height: 100vh;*/
-
+    /*background-image: url("../images/image1.jpg");*/
 }
+
 #email{
     margin-left:1.2rem;
 }
@@ -13,7 +15,7 @@
     margin-left:1.2rem;
 }
 #reg{
-    background-color: gray;
+    background-color: mediumspringgreen;
     display:none;
     justify-content: center;
     align-items: center;
